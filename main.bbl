@@ -1,0 +1,125 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{einstein1905tragheit}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+           family={Einstein},
+           familyi={E\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{fullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{bibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{authorbibnamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{authornamehash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \strng{authorfullhash}{3ebf53e52a3ce84f0ffb8553200a6a63}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annalen der Physik}
+      \field{number}{13}
+      \field{title}{Ist die Trägheit eines Körpers von seinem Energieinhalt abhängig?}
+      \field{volume}{323}
+      \field{year}{1905}
+      \field{pages}{639\bibrangedash 641}
+      \range{pages}{3}
+    \endentry
+    \entry{tflitetutorial}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c7d93bb3230b9d45d9356980d8024286}{%
+           family={Electronics},
+           familyi={E\bibinitperiod},
+           given={Edje},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Youtube}%
+      }
+      \strng{namehash}{c7d93bb3230b9d45d9356980d8024286}
+      \strng{fullhash}{c7d93bb3230b9d45d9356980d8024286}
+      \strng{bibnamehash}{c7d93bb3230b9d45d9356980d8024286}
+      \strng{authorbibnamehash}{c7d93bb3230b9d45d9356980d8024286}
+      \strng{authornamehash}{c7d93bb3230b9d45d9356980d8024286}
+      \strng{authorfullhash}{c7d93bb3230b9d45d9356980d8024286}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How to Train TensorFlow Lite Object Detection Models Using Google Colab}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=XZ7FYAMCc4M
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=XZ7FYAMCc4M
+      \endverb
+    \endentry
+    \entry{jeppesen2019cloud}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8a4a635ef3b2518046a7bb64ba5b96ed}{%
+           family={Jeppesen},
+           familyi={J\bibinitperiod},
+           given={Jacob\bibnamedelima H{ø}xbroe},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=a93e700d16bd4045e346af587f428bd5}{%
+           family={Jacobsen},
+           familyi={J\bibinitperiod},
+           given={Rune\bibnamedelima Hylsberg},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=0dca9be11162cef3751d8210c36092d7}{%
+           family={Inceoglu},
+           familyi={I\bibinitperiod},
+           given={Fadil},
+           giveni={F\bibinitperiod}}}%
+        {{hash=78a2dddeba87d4df5a48634633ca742e}{%
+           family={Toftegaard},
+           familyi={T\bibinitperiod},
+           given={Thomas\bibnamedelima Skj{ø}deberg},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fa087c9afd0b5cc046d9287546f14995}
+      \strng{fullhash}{8c319b332f24ff91423ef917f3e4a9bf}
+      \strng{bibnamehash}{fa087c9afd0b5cc046d9287546f14995}
+      \strng{authorbibnamehash}{fa087c9afd0b5cc046d9287546f14995}
+      \strng{authornamehash}{fa087c9afd0b5cc046d9287546f14995}
+      \strng{authorfullhash}{8c319b332f24ff91423ef917f3e4a9bf}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Remote sensing of environment}
+      \field{title}{A cloud detection algorithm for satellite imagery based on deep learning}
+      \field{volume}{229}
+      \field{year}{2019}
+      \field{pages}{247\bibrangedash 259}
+      \range{pages}{13}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

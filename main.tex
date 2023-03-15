@@ -5,7 +5,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{csquotes}
 \usepackage{expl3,biblatex}
-\addbibresource{example.bib}
+\addbibresource{main.bib}
 \usepackage[bottom]{footmisc}
 \usepackage{booktabs}
 \usefonttheme[onlymath]{serif}
@@ -31,6 +31,7 @@
 \usepackage{multimedia}
 \usepackage{animate}
 
+\usepackage{textcomp}
 \usepackage{graphicx} % Required for inserting images %potřebuje David
 \usepackage{gensymb} %for degrees %potřebuje David
 
@@ -72,6 +73,15 @@
 \begin{center}
 \color{mubeamer@base}
 \Huge \textbf{Poděkování}
+\end{center}
+
+\end{frame}
+
+\subsection[Poděkování]{Dlouhý název podsekce 1}
+\begin{frame}[c]
+\begin{center}
+\color{mubeamer@base}
+\Huge \textbf{Testovací snímek}
 \end{center}
 
 \end{frame}
@@ -294,7 +304,7 @@
 
         \end{column}
         \begin{column}{.5\textwidth}
-        \includegraphics[width=\textwidth]{images/balenÃ­.png}
+        \includegraphics[width=\textwidth]{images/baleni.png}
         \end{column}
 \end{columns}
 \end{frame}
@@ -886,19 +896,6 @@ text nad blokem\footnote{text poznámky s \url{https://adresou.cz}}
 \begin{alertblock}{Zvýrazněný blok}
   text v bloku
 \end{alertblock}
-\end{frame}
-
-\begin{frame}{Obrázky}
-\begin{figure}
-  \includegraphics[width=.5\textwidth,height=.5\textheight,keepaspectratio]{cow-black.mps}
-  \caption{Krychle ve tvaru krávy%
-    \footnote{%
-      Kdy že si ta kráva znovu lehne?
-      Odpověď vás překvapí.
-      \cite{tolkamp10cows}
-    }%
-  }
-\end{figure}
 \end{frame}
 
 \subsection[Název podsekce 3]{Dlouhý název podsekce 3}
