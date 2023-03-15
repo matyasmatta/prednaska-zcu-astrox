@@ -62,7 +62,6 @@
     \item Jak jsem se dostali na FAV?
     \item Co jsme naprogramovali?
     \item Co se stane, až to doběhne?
-    \item Poděkování
     \item Zdroje
 \end{itemize}
     
@@ -224,17 +223,11 @@
 \end{frame}
 
 \begin{frame}{Prezentace nápadu}
-    \vspace{0.1cm}
-    \begin{center}
-        \includegraphics[width=10cm]{images/Prezentace-3.png}
-    \end{center}  
+    \fullsizegraphic{images/Prezentace-3.png}
 \end{frame}
 
 \begin{frame}{Prezentace nápadu v Praze}
-    \vspace{0cm}
-    \begin{center}
-        \includegraphics[width=10cm]{images/IMG_0098_2.png}
-    \end{center}  
+    \fullsizegraphic{images/IMG_0098_2.png}
 \end{frame}
 
 
@@ -1116,6 +1109,36 @@
 \end{frame}
 
 \subsection[vlákno \texttt{processing}]{Dlouhý název podsekce 1}
+\begin{frame}{Implementace umělé inteligence}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item funkce z třídy \texttt{ai}
+                \item úhel počítán vnitřní funkcí 
+                \item \texttt{while} podmínka je počet mraků (vždy 10)
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=1.0\textwidth]{images/snippet_main_ai.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
+\begin{frame}{Implementace detekce stínů}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item vypočteme počáteční pixel
+                \item podmínka délky 
+                \item využijeme funkci třídy \texttt{shadow}
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=1.0\textwidth]{images/snippet_main_shadow.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
 
 \section[Získaná data]{Dlouhý název sekce 1}
 \begin{frame}[c]
@@ -1127,9 +1150,7 @@
 \end{frame}
 
 \begin{frame}{Obrázky}
-    \begin{center}
-        \includegraphics[height=0.8\textheight]{images/ocekavame_obr.jpg}
-    \end{center}
+    \fullsizegraphic{images/ocekavame_obr.jpg}
 \end{frame}
 \begin{frame}{Údaje o mracích}
        \includegraphics[height=0.8\textheight]{images/ocekavame_txt.png}
@@ -1159,10 +1180,11 @@
 \printbibliography[heading=none]
 \end{frame}
 
-\begin{frame}[plain]
-\vfill
-\centerline{Děkuji vám za pozornost!}
-\vfill\vfill
+\begin{frame}[c][plain]
+    \begin{center}
+    \color{mubeamer@base}
+    \huge{\textbf{Děkujeme vám za pozornost!}}
+    \end{center}
 \end{frame}
 
 \makeoutro
