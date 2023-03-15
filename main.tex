@@ -588,50 +588,38 @@
 \end{frame}
 
 \begin{frame}{Sever vůči ISS}
-    \begin{columns}[T]
-        \begin{column}{.8\textwidth}
-            \begin{itemize}
-                \item použijeme \alert{sférickou sinovou větu}
-                $$\frac{\sin(d)}{\sin(\alpha)}=\frac{\sin(l)}{\sin(\varepsilon)}~\Rightarrow\sin(d)=\frac{\sin(l)}{\sin(\varepsilon)}\sin(\alpha)~$$
-                \item \alert{kotangentový vzorec} pro čtyři parametry:
-                $$\cos(90\degree)\cos(d)=\cot(l)\sin(d)-\cot(\varepsilon)\sin(90\degree)$$
-                $$\cot(\varepsilon)=\cot(l)\sin(d)$$
-                \item zkombinujeme
-                $$\cot(\varepsilon)=\cot(l)\frac{\sin(l)}{\sin(\varepsilon)}\sin(\alpha)~\Rightarrow~\sin(\alpha)=\frac{\cos(\varepsilon)}{\cos(l)}$$
-            \end{itemize}
-        \end{column}
-        \begin{column}{.2\textwidth}
-            \begin{center}
-                \includegraphics[width=1\textwidth]{images/ISS.png}    
-            \end{center}
-        \end{column}
-    \end{columns}
+    \begin{itemize}
+        \item použijeme \alert{sférickou sinovou větu}
+    \end{itemize}
+    \begin{center}
+        \includegraphics[width=1\textwidth]{images/ISS.png}    
+    \end{center}
+    \begin{itemize}
+        $$\frac{\sin(d)}{\sin(\alpha)}=\frac{\sin(l)}{\sin(\varepsilon)}~\Rightarrow\sin(d)=\frac{\sin(l)}{\sin(\varepsilon)}\sin(\alpha)~$$
+        \item \alert{kotangentový vzorec} pro čtyři parametry:
+        $$\cos(90\degree)\cos(d)=\cot(l)\sin(d)-\cot(\varepsilon)\sin(90\degree)$$
+        $$\cot(\varepsilon)=\cot(l)\sin(d)$$
+        \item zkombinujeme
+        $$\cot(\varepsilon)=\cot(l)\frac{\sin(l)}{\sin(\varepsilon)}\sin(\alpha)~\Rightarrow~\sin(\alpha)=\frac{\cos(\varepsilon)}{\cos(l)}$$
+    \end{itemize}
 \end{frame}
 
 \begin{frame}{Quō vādis ISS}
-     \begin{columns}[T]
-        \begin{column}{.8\textwidth}
-            \begin{itemize}
-                \item konečná závislost $\alpha$ na zeměpisné šířce:
-                $$\alpha=\arcsin\left(\frac{\cos(\varepsilon)}{\cos(l)}\right)$$
-                \item vzorec vrátí ostrý úhel $\rightarrow$ nutná korekce $\alpha$:
-                \begin{itemize}
-                    \item \alert{stoupající} šířka - úhel \alert{zůstává}
-                    \item \alert{klesající} šířka - vezme se jeho \alert{doplněk ke 180\degree}
-                \end{itemize}
-            \end{itemize}
-        \end{column}
-        \begin{column}{.2\textwidth}
-            \begin{center}
-                \includegraphics[width=1\textwidth]{images/ISS.png}  
-            \end{center}
-        \end{column}
-    \end{columns}
+    \begin{itemize}
+        \item konečná závislost $\alpha$ na zeměpisné šířce:
+        $$\alpha=\arcsin\left(\frac{\cos(\varepsilon)}{\cos(l)}\right)$$
+        \item vzorec vrátí ostrý úhel $\rightarrow$ nutná korekce $\alpha$:
+        \begin{itemize}
+            \item \alert{stoupající} šířka - úhel \alert{zůstává}
+            \item \alert{klesající} šířka - vezme se jeho \alert{doplněk ke 180\degree}
+        \end{itemize}
+    \end{itemize}
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{images/alpha.png}
+    \end{center}
 \end{frame}
 \begin{frame}{Sever vůči ISS}
-            \begin{center}
-            \includegraphics[width=0.8\textwidth]{images/alpha.png}
-        \end{center}
+        
 \end{frame}
 
 \begin{frame}{OpenCV: natočení kamery}
