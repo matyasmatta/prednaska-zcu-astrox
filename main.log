@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.15)  15 MAR 2023 09:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.15)  15 MAR 2023 10:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1395,176 +1395,191 @@ Overfull \vbox (18.86644pt too high) detected at line 496
 
 ] [32
 
-] [33
-
 ]
-<images/ISS.png, id=483, 1008.76875pt x 1059.96pt>
+<images/Sever podle kompasu.png, id=474, 1002.74625pt x 323.2075pt>
+File: images/Sever podle kompasu.png Graphic file (type png)
+<use images/Sever podle kompasu.png>
+Package pdftex.def Info: images/Sever podle kompasu.png  used on input line 532.
+(pdftex.def)             Requested size: 298.66881pt x 96.26976pt.
+<images/Skutečný sever.png, id=475, 1002.74625pt x 323.2075pt>
+File: images/Skutečný sever.png Graphic file (type png)
+<use images/Skutečný sever.png>
+Package pdftex.def Info: images/Skutečný sever.png  used on input line 532.
+(pdftex.def)             Requested size: 298.66881pt x 96.26976pt.
+
+Overfull \vbox (7.49251pt too high) detected at line 532
+ []
+
+[33
+
+ <./images/Sever podle kompasu.png> <./images/Skutečný sever.png>]
+<images/ISS.png, id=488, 1008.76875pt x 1059.96pt>
 File: images/ISS.png Graphic file (type png)
 <use images/ISS.png>
-Package pdftex.def Info: images/ISS.png  used on input line 546.
+Package pdftex.def Info: images/ISS.png  used on input line 542.
 (pdftex.def)             Requested size: 129.74269pt x 136.31166pt.
  [34
 
  <./images/ISS.png>]
 File: images/ISS.png Graphic file (type png)
 <use images/ISS.png>
-Package pdftex.def Info: images/ISS.png  used on input line 567.
+Package pdftex.def Info: images/ISS.png  used on input line 563.
 (pdftex.def)             Requested size: 64.87134pt x 68.15582pt.
  [35
 
 ]
 File: images/ISS.png Graphic file (type png)
 <use images/ISS.png>
-Package pdftex.def Info: images/ISS.png  used on input line 589.
+Package pdftex.def Info: images/ISS.png  used on input line 584.
 (pdftex.def)             Requested size: 64.87134pt x 68.15582pt.
  [36
 
 ]
-<images/alpha.png, id=517, 1826.825pt x 1084.05pt>
+<images/alpha.png, id=521, 1826.825pt x 1084.05pt>
 File: images/alpha.png Graphic file (type png)
 <use images/alpha.png>
-Package pdftex.def Info: images/alpha.png  used on input line 597.
+Package pdftex.def Info: images/alpha.png  used on input line 592.
 (pdftex.def)             Requested size: 259.49033pt x 153.98248pt.
  [37
 
  <./images/alpha.png>] [38
 
+] [39
+
 ]
-<images/snippet_1.png, id=538, 301.125pt x 185.94469pt>
+<images/snippet_1.png, id=551, 301.125pt x 185.94469pt>
 File: images/snippet_1.png Graphic file (type png)
 <use images/snippet_1.png>
-Package pdftex.def Info: images/snippet_1.png  used on input line 620.
+Package pdftex.def Info: images/snippet_1.png  used on input line 622.
 (pdftex.def)             Requested size: 162.18083pt x 100.15042pt.
- [39
-
- <./images/snippet_1.png>]
-<images/snippet_2.png, id=563, 376.40625pt x 359.09157pt>
-File: images/snippet_2.png Graphic file (type png)
-<use images/snippet_2.png>
-Package pdftex.def Info: images/snippet_2.png  used on input line 637.
-(pdftex.def)             Requested size: 162.18083pt x 154.72415pt.
  [40
 
- <./images/snippet_2.png>]
-<images/snippet_3(UpRGB)(noise_scale)(Level3)(x4.000000).png, id=574, 1445.4pt x 634.37pt>
-File: images/snippet_3(UpRGB)(noise_scale)(Level3)(x4.000000).png Graphic file (type png)
-<use images/snippet_3(UpRGB)(noise_scale)(Level3)(x4.000000).png>
-Package pdftex.def Info: images/snippet_3(UpRGB)(noise_scale)(Level3)(x4.000000).png  used on input line 654.
-(pdftex.def)             Requested size: 162.18083pt x 71.17479pt.
+ <./images/snippet_1.png>]
+<images/snippet_2.png, id=576, 376.40625pt x 359.09157pt>
+File: images/snippet_2.png Graphic file (type png)
+<use images/snippet_2.png>
+Package pdftex.def Info: images/snippet_2.png  used on input line 639.
+(pdftex.def)             Requested size: 162.18083pt x 154.72415pt.
  [41
 
- <./images/snippet_3(UpRGB)(noise_scale)(Level3)(x4.000000).png>]
-<images/snippet_4.png, id=587, 752.0597pt x 390.70969pt>
-File: images/snippet_4.png Graphic file (type png)
-<use images/snippet_4.png>
-Package pdftex.def Info: images/snippet_4.png  used on input line 675.
-(pdftex.def)             Requested size: 227.05219pt x 117.95901pt.
+ <./images/snippet_2.png>]
+<images/snippet_3(UpRGB)(noise_scale)(Level3)(x4.000000).png, id=587, 1445.4pt x 634.37pt>
+File: images/snippet_3(UpRGB)(noise_scale)(Level3)(x4.000000).png Graphic file (type png)
+<use images/snippet_3(UpRGB)(noise_scale)(Level3)(x4.000000).png>
+Package pdftex.def Info: images/snippet_3(UpRGB)(noise_scale)(Level3)(x4.000000).png  used on input line 656.
+(pdftex.def)             Requested size: 162.18083pt x 71.17479pt.
  [42
 
- <./images/snippet_4.png>]
-<images/snippet_limit.png, id=598, 706.89093pt x 204.01219pt>
-File: images/snippet_limit.png Graphic file (type png)
-<use images/snippet_limit.png>
-Package pdftex.def Info: images/snippet_limit.png  used on input line 686.
-(pdftex.def)             Requested size: 324.36168pt x 93.61327pt.
+ <./images/snippet_3(UpRGB)(noise_scale)(Level3)(x4.000000).png>]
+<images/snippet_4.png, id=600, 752.0597pt x 390.70969pt>
+File: images/snippet_4.png Graphic file (type png)
+<use images/snippet_4.png>
+Package pdftex.def Info: images/snippet_4.png  used on input line 677.
+(pdftex.def)             Requested size: 227.05219pt x 117.95901pt.
  [43
 
- <./images/snippet_limit.png>]
-<images/snippet_sundata.png, id=610, 738.50906pt x 371.13657pt>
-File: images/snippet_sundata.png Graphic file (type png)
-<use images/snippet_sundata.png>
-Package pdftex.def Info: images/snippet_sundata.png  used on input line 693.
-(pdftex.def)             Requested size: 324.36168pt x 163.0061pt.
+ <./images/snippet_4.png>]
+<images/snippet_limit.png, id=612, 706.89093pt x 204.01219pt>
+File: images/snippet_limit.png Graphic file (type png)
+<use images/snippet_limit.png>
+Package pdftex.def Info: images/snippet_limit.png  used on input line 688.
+(pdftex.def)             Requested size: 324.36168pt x 93.61327pt.
  [44
 
+ <./images/snippet_limit.png>]
+<images/snippet_sundata.png, id=623, 738.50906pt x 371.13657pt>
+File: images/snippet_sundata.png Graphic file (type png)
+<use images/snippet_sundata.png>
+Package pdftex.def Info: images/snippet_sundata.png  used on input line 695.
+(pdftex.def)             Requested size: 324.36168pt x 163.0061pt.
+ [45
+
  <./images/snippet_sundata.png>]
-<images/snippet_loop.png, id=622, 443.40656pt x 557.83406pt>
+<images/snippet_loop.png, id=635, 443.40656pt x 557.83406pt>
 File: images/snippet_loop.png Graphic file (type png)
 <use images/snippet_loop.png>
-Package pdftex.def Info: images/snippet_loop.png  used on input line 713.
+Package pdftex.def Info: images/snippet_loop.png  used on input line 715.
 (pdftex.def)             Requested size: 160.55882pt x 201.99474pt.
 
-Overfull \hbox (14.59706pt too wide) in paragraph at lines 713--713
+Overfull \hbox (14.59706pt too wide) in paragraph at lines 715--715
 []  
  []
 
-[45
+[46
 
- <./images/snippet_loop.png>] [46
+ <./images/snippet_loop.png>] [47
 
 ]
-<images/snippet_minmax.png, id=641, 413.29407pt x 412.54124pt>
+<images/snippet_minmax.png, id=654, 413.29407pt x 412.54124pt>
 File: images/snippet_minmax.png Graphic file (type png)
 <use images/snippet_minmax.png>
-Package pdftex.def Info: images/snippet_minmax.png  used on input line 743.
+Package pdftex.def Info: images/snippet_minmax.png  used on input line 745.
 (pdftex.def)             Requested size: 145.96176pt x 145.69463pt.
- [47
-
- <./images/snippet_minmax.png>]
-<images/snippet_minmax_main.png, id=652, 388.45125pt x 225.09094pt>
-File: images/snippet_minmax_main.png Graphic file (type png)
-<use images/snippet_minmax_main.png>
-Package pdftex.def Info: images/snippet_minmax_main.png  used on input line 758.
-(pdftex.def)             Requested size: 162.18083pt x 93.97769pt.
  [48
 
- <./images/snippet_minmax_main.png>]
-<images/snippet_change_convert.png, id=663, 341.77687pt x 307.1475pt>
-File: images/snippet_change_convert.png Graphic file (type png)
-<use images/snippet_change_convert.png>
-Package pdftex.def Info: images/snippet_change_convert.png  used on input line 773.
-(pdftex.def)             Requested size: 145.96176pt x 131.17569pt.
+ <./images/snippet_minmax.png>]
+<images/snippet_minmax_main.png, id=665, 388.45125pt x 225.09094pt>
+File: images/snippet_minmax_main.png Graphic file (type png)
+<use images/snippet_minmax_main.png>
+Package pdftex.def Info: images/snippet_minmax_main.png  used on input line 760.
+(pdftex.def)             Requested size: 162.18083pt x 93.97769pt.
  [49
 
+ <./images/snippet_minmax_main.png>]
+<images/snippet_change_convert.png, id=677, 341.77687pt x 307.1475pt>
+File: images/snippet_change_convert.png Graphic file (type png)
+<use images/snippet_change_convert.png>
+Package pdftex.def Info: images/snippet_change_convert.png  used on input line 775.
+(pdftex.def)             Requested size: 145.96176pt x 131.17569pt.
+ [50
+
  <./images/snippet_change_convert.png>]
-<images/snippet_change_search.png, id=675, 344.78813pt x 310.15875pt>
+<images/snippet_change_search.png, id=688, 344.78813pt x 310.15875pt>
 File: images/snippet_change_search.png Graphic file (type png)
 <use images/snippet_change_search.png>
-Package pdftex.def Info: images/snippet_change_search.png  used on input line 787.
+Package pdftex.def Info: images/snippet_change_search.png  used on input line 789.
 (pdftex.def)             Requested size: 145.96176pt x 131.30223pt.
- [50
+ [51
 
  <./images/snippet_change_search.png>]
 File: images/snippet_change_search.png Graphic file (type png)
 <use images/snippet_change_search.png>
-Package pdftex.def Info: images/snippet_change_search.png  used on input line 802.
+Package pdftex.def Info: images/snippet_change_search.png  used on input line 804.
 (pdftex.def)             Requested size: 145.96176pt x 131.30223pt.
- [51
+ [52
 
 ]
 File: images/chart (34).png Graphic file (type png)
 <use images/chart (34).png>
-Package pdftex.def Info: images/chart (34).png  used on input line 808.
+Package pdftex.def Info: images/chart (34).png  used on input line 810.
 (pdftex.def)             Requested size: 324.36168pt x 200.5712pt.
- [52
-
-]
-<images/snippet_methods_together.png, id=704, 421.575pt x 349.305pt>
-File: images/snippet_methods_together.png Graphic file (type png)
-<use images/snippet_methods_together.png>
-Package pdftex.def Info: images/snippet_methods_together.png  used on input line 830.
-(pdftex.def)             Requested size: 162.18083pt x 134.37889pt.
  [53
 
- <./images/snippet_methods_together.png>]
-<images/snippet_correction.png, id=716, 349.305pt x 232.61906pt>
-File: images/snippet_correction.png Graphic file (type png)
-<use images/snippet_correction.png>
-Package pdftex.def Info: images/snippet_correction.png  used on input line 845.
-(pdftex.def)             Requested size: 162.18083pt x 108.00346pt.
+]
+<images/snippet_methods_together.png, id=717, 421.575pt x 349.305pt>
+File: images/snippet_methods_together.png Graphic file (type png)
+<use images/snippet_methods_together.png>
+Package pdftex.def Info: images/snippet_methods_together.png  used on input line 832.
+(pdftex.def)             Requested size: 162.18083pt x 134.37889pt.
  [54
 
- <./images/snippet_correction.png>]
-<images/snippet_final.png, id=727, 349.305pt x 232.61906pt>
-File: images/snippet_final.png Graphic file (type png)
-<use images/snippet_final.png>
-Package pdftex.def Info: images/snippet_final.png  used on input line 860.
+ <./images/snippet_methods_together.png>]
+<images/snippet_correction.png, id=729, 349.305pt x 232.61906pt>
+File: images/snippet_correction.png Graphic file (type png)
+<use images/snippet_correction.png>
+Package pdftex.def Info: images/snippet_correction.png  used on input line 847.
 (pdftex.def)             Requested size: 162.18083pt x 108.00346pt.
  [55
 
- <./images/snippet_final.png>] [56
+ <./images/snippet_correction.png>]
+<images/snippet_final.png, id=741, 349.305pt x 232.61906pt>
+File: images/snippet_final.png Graphic file (type png)
+<use images/snippet_final.png>
+Package pdftex.def Info: images/snippet_final.png  used on input line 862.
+(pdftex.def)             Requested size: 162.18083pt x 108.00346pt.
+ [56
 
-] [57
+ <./images/snippet_final.png>] [57
 
 ] [58
 
@@ -1572,15 +1587,17 @@ Package pdftex.def Info: images/snippet_final.png  used on input line 860.
 
 ] [60
 
+] [61
+
 ]
 
 pdfTeX warning: pdflatex (file ./mubeamer/logo/ZCU_bila.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<mubeamer/logo/ZCU_bila.pdf, id=826, 290.76688pt x 133.69977pt>
+<mubeamer/logo/ZCU_bila.pdf, id=840, 290.76688pt x 133.69977pt>
 File: mubeamer/logo/ZCU_bila.pdf Graphic file (type pdf)
 <use mubeamer/logo/ZCU_bila.pdf>
-Package pdftex.def Info: mubeamer/logo/ZCU_bila.pdf  used on input line 941.
+Package pdftex.def Info: mubeamer/logo/ZCU_bila.pdf  used on input line 943.
 (pdftex.def)             Requested size: 56.9055pt x 26.16417pt.
-[61
+[62
 
  <./mubeamer/logo/ZCU_bila.pdf>]
 \tf@nav=\write7
@@ -1594,23 +1611,23 @@ Package pdftex.def Info: mubeamer/logo/ZCU_bila.pdf  used on input line 941.
 
  (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 05C9F3A6EE763FE5824202FA77D832CA;4886.
+(rerunfilecheck)             Checksum: 7E37E1957C90FEBDB174C2E359F05C80;4886.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36966 strings out of 476339
- 749741 string characters out of 5789063
+ 36986 strings out of 476339
+ 750278 string characters out of 5789063
  1862340 words of memory out of 5000000
- 56491 multiletter control sequences out of 15000+600000
- 716884 words of font info for 129 fonts, out of 8000000 for 9000
+ 56506 multiletter control sequences out of 15000+600000
+ 717519 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,1291b,1802s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/ptsans_t1.enc}{C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/ptmono_t1.enc}{C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/ptsans_ts1.enc}<C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptsans/PTC55F.pfb><C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptsans/PTC75F.pfb><C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptmono/PTM55F.pfb><C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptmono/PTM75F.pfb><C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptsans/PTS55F.pfb><C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptsans/PTS56F.pfb><C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptsans/PTS75F.pfb><C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (61 pages, 60920590 bytes).
+Output written on main.pdf (62 pages, 60948047 bytes).
 PDF statistics:
- 936 PDF objects out of 1000 (max. 8388607)
- 154 named destinations out of 1000 (max. 500000)
- 663 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 949 PDF objects out of 1000 (max. 8388607)
+ 156 named destinations out of 1000 (max. 500000)
+ 673 words of extra memory for PDF output out of 10000 (max. 10000000)
 

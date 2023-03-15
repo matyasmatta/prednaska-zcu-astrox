@@ -21,9 +21,9 @@
 \beamer@subsectionintoc {6}{1}{Dlouhý název podsekce 1}{20}{0}{6}
 \beamer@subsectionintoc {6}{2}{Dlouhý název podsekce 1}{29}{0}{6}
 \beamer@subsectionintoc {6}{3}{Dlouhý název podsekce 1}{32}{0}{6}
-\beamer@subsectionintoc {6}{4}{Dlouhý název podsekce 1}{38}{0}{6}
-\beamer@subsectionintoc {6}{5}{Dlouhý název podsekce 1}{44}{0}{6}
-\beamer@subsectionintoc {6}{6}{Dlouhý název podsekce 1}{45}{0}{6}
-\beamer@subsectionintoc {6}{7}{Dlouhý název podsekce 2}{57}{0}{6}
-\beamer@subsectionintoc {6}{8}{Dlouhý název podsekce 3}{58}{0}{6}
-\beamer@sectionintoc {7}{Bibliografie}{59}{0}{7}
+\beamer@subsectionintoc {6}{4}{Dlouhý název podsekce 1}{39}{0}{6}
+\beamer@subsectionintoc {6}{5}{Dlouhý název podsekce 1}{45}{0}{6}
+\beamer@subsectionintoc {6}{6}{Dlouhý název podsekce 1}{46}{0}{6}
+\beamer@subsectionintoc {6}{7}{Dlouhý název podsekce 2}{58}{0}{6}
+\beamer@subsectionintoc {6}{8}{Dlouhý název podsekce 3}{59}{0}{6}
+\beamer@sectionintoc {7}{Bibliografie}{60}{0}{7}
