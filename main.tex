@@ -356,14 +356,26 @@
     \begin{center}
     \color{mubeamer@base}
     \huge{\textbf{Laboratoř na FAV}}
-    \vspace{5mm}
-    
+    \vspace{1mm}
+
     \Large UC 355 - “Holodíra”
     \end{center}
 \end{frame}
 
 \begin{frame}[plain]
     \fullsizegraphic{images/laborka_1.jpg}
+\end{frame}
+
+\begin{frame}[plain]
+    \fullsizegraphic{images/laborka_2.jpg}    
+\end{frame}
+
+\begin{frame}[plain]
+    \fullsizegraphic{images/laborka_3.jpg}    
+\end{frame}
+
+\begin{frame}[plain]
+    \fullsizegraphic{images/laborka_4.jpg}    
 \end{frame}
 
 \section{Program}
@@ -557,20 +569,29 @@
 \end{frame}
 
 \begin{frame}{Sever vůči ISS}
-    \begin{itemize}
-        \item dá zjistit pomocí sférického trojúhelníku
-    \end{itemize}
-    \begin{center}
-        \includegraphics[width=0.4\textwidth]{images/ISS.png}\\    
-    \end{center}
-, kde $\alpha$ je úhel mezi severem a směrem pohybu ISS, $\varepsilon$ je sklon dráhy ISS vzhledem k rovníku, $l$ je zeměpisná šířka a $d$ je pomocná proměnná, něco jako zeměpisná délka
+    \begin{columns}[T]
+        \begin{column}{.5\textwidth} 
+            \begin{itemize}
+                \item sférický trojúhelník
+                \item $\alpha$ \dots úhel mezi severem a směrem pohybu ISS
+                \item $\varepsilon$ \dots sklon dráhy ISS vzhledem k rovníku
+                \item $l$ \dots zeměpisná šířka
+                \item $d$ \dots pomocná proměnná ("zeměpisná délka")
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \begin{center}
+                \includegraphics[width=0.4\textwidth]{images/ISS.png}\\    
+            \end{center}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \begin{frame}{Sever vůči ISS}
-     \begin{columns}[T]
+    \begin{columns}[T]
         \begin{column}{.8\textwidth}
             \begin{itemize}
-                \item použijeme \alert{sférickou sinová větu}
+                \item použijeme \alert{sférickou sinovou větu}
                 $$\frac{\sin(d)}{\sin(\alpha)}=\frac{\sin(l)}{\sin(\varepsilon)}~\Rightarrow\sin(d)=\frac{\sin(l)}{\sin(\varepsilon)}\sin(\alpha)~$$
                 \item \alert{kotangentový vzorec} pro čtyři parametry:
                 $$\cos(90\degree)\cos(d)=\cot(l)\sin(d)-\cot(\varepsilon)\sin(90\degree)$$
@@ -587,11 +608,11 @@
     \end{columns}
 \end{frame}
 
-\begin{frame}{Quo vadis ISS}
+\begin{frame}{Quō vādis ISS}
      \begin{columns}[T]
         \begin{column}{.8\textwidth}
             \begin{itemize}
-                \item konečná závislost $\alpha$ na zeměpisné šířce
+                \item konečná závislost $\alpha$ na zeměpisné šířce:
                 $$\alpha=\arcsin\left(\frac{\cos(\varepsilon)}{\cos(l)}\right)$$
                 \item vzorec vrátí ostrý úhel $\rightarrow$ nutná korekce $\alpha$:
                 \begin{itemize}
@@ -611,9 +632,6 @@
             \begin{center}
             \includegraphics[width=0.8\textwidth]{images/alpha.png}
         \end{center}
-        \begin{itemize}
-            \item směr pohybu na fotce $\rightarrow$ směr severu z finální rovnice $\rightarrow$ směr stínu z azimutu Slunce 
-        \end{itemize}
 \end{frame}
 
 \begin{frame}{OpenCV: natočení kamery}
@@ -951,72 +969,204 @@
     \end{center}
 \end{frame}
 
-\begin{frame}{Nadpis}{Podnadpis}
-běžný text, \structure{struktura stránky}, \alert{zvýrazněný text}
-\begin{itemize}
-  \item položka odrážkového seznamu na jeden řádek
-  \item položka odrážkového seznamu dlouhá, moc dlouhá (to aby se zalomila),
-    která navíc obsahuje \alert{zvýrazněný text}
-  \begin{itemize}
-    \item odrážka druhé úrovně
-    \begin{itemize}
-      \item odrážka třetí úrovně
-    \end{itemize}
-    \item \alert{zvýrazněná odrážka druhé úrovně}
-  \end{itemize}
-\end{itemize}
-\begin{enumerate}
-  \item a číslovaná odrážka
-  \begin{enumerate}
-    \item odrážka druhé úrovně se vzorečkem
-      \[ E = mc^2 \]
-      a s odkazem na bibliografickou citaci \cite{einstein1905tragheit}
-  \end{enumerate}
-\end{enumerate}
+\subsection[feature \texttt{multithreading}]{Dlouhý název podsekce 1}
+
+\begin{frame}{Potíže při prvním testování}
+    \begin{columns}[T]
+       \begin{column}{.45\textwidth}
+           \begin{itemize}
+               \item zpracování celého obrázku ca. 2.2 minuty
+               \item maximum pro class \texttt{north} ca. 0.4 minuty
+               \item řešením multithreading\footnotemark[14]
+           \end{itemize}
+       \end{column}
+       \begin{column}{.5\textwidth}
+       \includegraphics[width=1.0\textwidth]{images/multithreading_snippet.png}
+       \end{column}
+   \end{columns}
+   \footnotetext[14]{proces, kde běží více vláken současně, i.e. je schopen vykonávat více než jeden příkaz naráz}
 \end{frame}
 
-\subsection[Název podsekce 2]{Dlouhý název podsekce 2}
-
-\begin{frame}{Textové bloky}
-text nad blokem\footnote{text poznámky s \url{https://adresou.cz}}
-\begin{block}{Blok}
-  text v bloku
-\end{block}
-\begin{exampleblock}{Blok s příkladem}
-  text v bloku
-\end{exampleblock}
-\begin{alertblock}{Zvýrazněný blok}
-  text v bloku
-\end{alertblock}
+\begin{frame}{Dvouvláknový proces}
+    \begin{columns}[T]
+       \begin{column}{.45\textwidth}
+           \begin{itemize}
+               \item jedno vlákno na produkci dat
+               \item jedno vlánko na zpracování dat
+               \item definovali jsme jako třídy
+               \item samotné spuštění pod \texttt{if} funkcí
+           \end{itemize}
+       \end{column}
+       \begin{column}{.5\textwidth}
+       \includegraphics[width=1.0\textwidth]{images/snippet_main_thread_class.png}
+       \end{column}
+   \end{columns}
+   \footnotetext[14]{proces, kde běží více vláken současně, i.e. je schopen vykonávat více než jeden příkaz naráz}
 \end{frame}
 
-\subsection[Název podsekce 3]{Dlouhý název podsekce 3}
+\subsection[vlákno \texttt{auxiliary}]{Dlouhý název podsekce 1}
+\begin{frame}{Dvouvláknový proces}
+    \begin{columns}[T]
+       \begin{column}{.45\textwidth}
+           \begin{itemize}
+               \item sbírá SenseHat data
+               \item fotí v intervalu daným polohou Slunce
+               \item podmíněno 3 GiB místem 
+               \item a 2.7 hodiny časem
+               \item ukládá správná EXIF data\footnotemark[16]
+           \end{itemize}
+       \end{column}
+       \begin{column}{.5\textwidth}
+       \includegraphics[width=1.0\textwidth]{images/snippet_auxiliary_thread_loop_main.png}
+       \end{column}
+   \end{columns}
+   \footnotetext[15]{pomocné, data generující}
+   \footnotetext[16]{metadata, obsahující informace o poloze a čase, ukládá se přímo do fotografie}
+\end{frame}
 
-\def\age(#1-#2-#3){%
-  \the\numexpr(
-    \year - #1
-    \ifnum\month<#2
-      - 1
-    \else
-      \ifnum\month=#2
-        \ifnum\day<#3
-          - 1
-        \fi
-      \fi
-    \fi
-  )%
-}
+\begin{frame}[c]
+    \begin{center}
+    \color{mubeamer@base}
+    \Huge \textbf{Inicializace}
+    \end{center}
+\end{frame}
+    
 
-\begin{frame}{Tabulky}
-\begin{table}
-  \begin{tabular}{llc}
-    Jméno & Příjmení & Věk \\ \midrule
-    Albert & Einstein & \age(1879-03-14) \\
-    Marie & Curie & \age(1867-11-07) \\
-    Thomas & Edison & \age(1847-02-11) \\
-  \end{tabular}
-  \caption{Velcí vědci 19. století}
-\end{table}
+\subsection[vlákno \texttt{processing}]{Dlouhý název podsekce 1}
+\begin{frame}{Hlavní loop}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item měří natočení kamery (=\texttt{edoov\_coefficient})
+                \item běží dokud hodnota není dost přesná
+                \item výhodou více vláken je, že je jedno jak dlouho poběží
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=0.8\textwidth]{images/snippet_inicialization.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
+\begin{frame}{Podmínka přesnosti}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item pokud není výsledek dost přesný neopustí loop
+                \item chceme přesnost pod jeden stupeň
+                \item využíváme medián, nikoliv průměr
+                \item pokud ještě neuběhlo 256 vteřin tak se loop neukončí ani kdyby byla podmínka splněna
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=1.0\textwidth]{images/snippet_accuaracy.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
+\begin{frame}[c]
+    \begin{center}
+    \color{mubeamer@base}
+    \Huge \textbf{Hlavní zpracovací proces}
+    \end{center}
+\end{frame}
+
+\begin{frame}{Když není, co zpracovat}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item zpřesňujeme \texttt{edoov\_coefficient}
+                \item případně se kód na pár vteřin uspí
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=0.7\textwidth]{images/snippet_inactivity_main_runtime.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
+\begin{frame}{Extrakce EXIF metadat}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item první využijeme námi definované funkce na extrakci metadat
+                \item ty metadata jsme tam sami zapsali
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=0.8\textwidth]{images/snippet_exif_extraction.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
+\begin{frame}{Rozsekání obrázků}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item pokud je Slunce nad obzorem
+                \item ty metadata jsme tam sami zapsali
+                \item funkce \texttt{file\_split} obrázek ořízne, rozseká a ke každému chopu přiřadí přesnější souřadnice 
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=0.9\textwidth]{images/snippet_main_splitter.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
+\subsection[class \texttt{split}]{Dlouhý název podsekce 1}
+\begin{frame}{Proč obrázek rozsekávat?}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item pro anotaci rozsekáno kvůli limitacím Roboflow
+                \item pro reálný program to nebylo nutné
+                \item metodou rozsekání lze zpřesnit souřadnice
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=1.0\textwidth]{images/snippet_split_class.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
+\subsection[vlákno \texttt{processing}]{Dlouhý název podsekce 1}
+
+\section[Získaná data]{Dlouhý název sekce 1}
+\begin{frame}[c]
+    \begin{center}
+    \color{mubeamer@base}
+    \huge{\textbf{Data, která nám přijdou}}
+    \vspace{5mm}
+    \end{center}
+\end{frame}
+
+\begin{frame}{Obrázky}
+    \begin{center}
+        \includegraphics[height=0.8\textheight]{images/ocekavame_obr.jpg}
+    \end{center}
+\end{frame}
+\begin{frame}{Údaje o mracích}
+       \includegraphics[height=0.8\textheight]{images/ocekavame_txt.png}
+\end{frame}
+\begin{frame}{Ostatní údaje z Raspberry}
+    \begin{center}
+        \includegraphics[height=0.8\textheight]{images/ocekavame_tabulka.jpg}
+    \end{center}
+\end{frame}    
+\begin{frame}{Naložení s daty}
+    \begin{columns}[T]
+       \begin{column}{.7\textwidth}
+           \begin{itemize}
+               \item údaje z obrázků necháme ještě jednou přepočítat
+               \item data zanalyzujeme
+               \item vytvoříme pětistránkovou zprávu 
+           \end{itemize}
+       \end{column}
+       \begin{column}{.3\textwidth}
+       \includegraphics[width=1.0\textwidth]{images/AstroPi_key_visual_pillars.png}
+       \end{column}
+   \end{columns}
 \end{frame}
 
 \section{\bibname}

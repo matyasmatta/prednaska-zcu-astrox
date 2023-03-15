@@ -4,16 +4,17 @@ import cv2
 import math
 import numpy as np
 import statistics
+import os
 
 # This is code for better calculation of position of north on photo
 # We did analyze on example data which were on raspberry and found that compass can be easy affected by other magnetic fields. The difference between the correct position of north and the data from compass were sometimes different by 30 degrees
 # So we invented equation that describe position of north towards positition of ISS (the ISS is looking in the direction of its flight).
 # Then we are calculating relative rotation of a camera towards the ISS with opencv . We are tracking the movement of picture on compering it to the movement of the ISS on then calculating the relative rotation of camera on ISS
 
-number_of_displaying_matches = int(input("Přesnost:"))
 
 #for acessing program via other .py file
 def find_north(image_1, image_2):
+    number_of_displaying_matches = int(input("Přesnost:"))
 
     #geting EXIF time of capture
     def get_time(image):
@@ -174,4 +175,4 @@ def find_north(image_1, image_2):
     print(edoov_coefficient[3])
 
 if __name__ == '__main__':
-    find_north(".\\mad1.jpg", ".\\mad2.jpg")
+    find_north(r".\\mad1.jpg", r".\\mad2.jpg")
