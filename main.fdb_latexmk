@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1678870308 "main.bcf" "main.bbl" "main" 1678870353 0
-  "main.bcf" 1678870352 107397 696e9656c26dd9ff83f500acfab8342a "pdflatex"
+["biber main"] 1678872211 "main.bcf" "main.bbl" "main" 1678872332 0
+  "main.bcf" 1678872331 107397 696e9656c26dd9ff83f500acfab8342a "pdflatex"
   "main.bib" 1678860914 1223 07aa12bed24f099e70874b86bb86e816 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1678870314 "c:/Users/kiv/Documents/GitHub/prednaska-zcu-astrox/main.tex" "main.pdf" "main" 1678870353 0
+["pdflatex"] 1678872297 "c:/Users/kiv/Documents/GitHub/prednaska-zcu-astrox/main.tex" "main.pdf" "main" 1678872332 0
   "C:/Users/kiv/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1678867467 114521 8fcaf690a3988c7190cef159a0fcbb62 ""
   "C:/Users/kiv/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1678868219 23174854 b73040c7536654aaf45002e0b0bfaa1e ""
   "C:/Users/kiv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/ptmono_t1.enc" 1391356642 2566 85d32bcd815d608c52dde2d0410884fa ""
@@ -206,7 +206,7 @@
   "C:/Users/kiv/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonbook.pdf" 1676882256 2667 7624351b441ffe4bd2d14e08fbcf063d ""
   "C:/Users/kiv/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericononline.20.pdf" 1676882256 24451 195d2c060e84f339954bc6d9b52131d7 ""
   "C:/Users/kiv/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericononline.pdf" 1676882256 24611 df07010540266b2b205b492a4d02e7e1 ""
-  "C:/Users/kiv/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamerinnerthemedefault.sty" 1676882256 13080 71b38252cbe3d689bcd03161d205eb84 ""
+  "C:/Users/kiv/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamerinnerthemedefault.sty" 1678872094 13080 71b38252cbe3d689bcd03161d205eb84 ""
   "C:/Users/kiv/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamerouterthemedefault.sty" 1676882256 6910 04edbf3b8c0cef06702e5c6b5546b504 ""
   "C:/Users/kiv/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamerouterthemeinfolines.sty" 1676882256 2190 d21d3b79f3f7951d92f23ba976980c88 ""
   "C:/Users/kiv/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamerthemedefault.sty" 1676882256 355 75c98e7b8f427eb7c625ed391b140c5b ""
@@ -295,7 +295,7 @@
   "C:/Users/kiv/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1650047684 2245 c8a4088d07cffc2e5207730c738edd76 ""
   "C:/Users/kiv/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1650047684 20785 71a3d72ab517959a6979c27e6176bec1 ""
   "beamerthemeMU.sty" 1678860914 12634 b024b73547f00376942138d78aad8ce8 ""
-  "c:/Users/kiv/Documents/GitHub/prednaska-zcu-astrox/main.tex" 1678870257 32599 a13e8aab65c344ecb7930b9a9a10e77e ""
+  "c:/Users/kiv/Documents/GitHub/prednaska-zcu-astrox/main.tex" 1678872067 33040 75a9d650725ce5233ec8e70da88bd3c2 ""
   "images/AstroPi_key_visual_pillars.png" 1678860916 429176 222d7b26d3a8e75c2d88e199b1218bac ""
   "images/IMG_0098_2.png" 1678860920 2437829 90fb16c975d7ebaaa9291917673cd8c9 ""
   "images/ISS.png" 1678860926 147369 f239d6a0bdfe51b38838c6ab40d06a6d ""
@@ -340,12 +340,12 @@
   "images/snippet_sundata.png" 1678860926 76437 8d63b566f0c985cc5ec322d0535c8ab7 ""
   "images/typy mraku.png" 1678860916 162786 dcda89fcb8f1e2613b16f96d46363909 ""
   "images/vyhravsichni.jpeg" 1678860918 283824 db993e453a2c89c3c29942a867b50c49 ""
-  "main.aux" 1678870352 17815 af92d5c6f75e55f82f2de0e1b5ea7db2 "pdflatex"
-  "main.bbl" 1678870314 4795 697cab7cf4d3266d6477d1dded71e3cd "biber main"
-  "main.nav" 1678870352 10676 227eb51cfeba7c87790a7a27a01b9c0b "pdflatex"
-  "main.out" 1678870352 4886 05c9f3a6ee763fe5824202fa77d832ca "pdflatex"
-  "main.run.xml" 1678870352 2297 e69bca236f6c24bdd8ed5ebb38e7b183 "pdflatex"
-  "main.tex" 1678870257 32599 a13e8aab65c344ecb7930b9a9a10e77e ""
+  "main.aux" 1678872331 18115 679e3c50876b033d0f8e8aa12f120221 "pdflatex"
+  "main.bbl" 1678872221 4795 697cab7cf4d3266d6477d1dded71e3cd "biber main"
+  "main.nav" 1678872331 10904 518429ee1a49c27144240df218f2718d "pdflatex"
+  "main.out" 1678872331 4886 0b31bb70b7d438b1186dd4e1537573f4 "pdflatex"
+  "main.run.xml" 1678872331 2297 e69bca236f6c24bdd8ed5ebb38e7b183 "pdflatex"
+  "main.tex" 1678872067 33040 75a9d650725ce5233ec8e70da88bd3c2 ""
   "mubeamer/logo/MG3.pdfczech-color.pdf" 1678860916 490671 73f37725837a6d408ce4f986eabc8c38 ""
   "mubeamer/logo/ZCU_bila.pdf" 1678860914 18962 adb730623fc737b50c8c3c2f048e77de ""
   "mubeamer/patch/mubeamer-c4e.sty" 1678860914 1051 a1ff59c75a7a9547b885b81c21303aeb ""
