@@ -569,22 +569,26 @@
 \end{frame}
 
 \begin{frame}{Sever vůči ISS}
-    \begin{itemize}
-        \item sférický trojúhelník
-    \end{itemize}
-    \begin{center}
-        \includegraphics[width=0.4\textwidth]{images/ISS.png}\\    
-    \end{center}
-    \begin{itemize}
-        \item $\alpha$ \dots úhel mezi severem a směrem pohybu ISS
-        \item $\varepsilon$ \dots sklon dráhy ISS vzhledem k rovníku
-        \item $l$ \dots zeměpisná šířka
-        \item $d$ \dots pomocná proměnná ("zeměpisná délka")
-    \end{itemize}
+    \begin{columns}[T]
+        \begin{column}{.5\textwidth} 
+            \begin{itemize}
+                \item sférický trojúhelník
+                \item $\alpha$ \dots úhel mezi severem a směrem pohybu ISS
+                \item $\varepsilon$ \dots sklon dráhy ISS vzhledem k rovníku
+                \item $l$ \dots zeměpisná šířka
+                \item $d$ \dots pomocná proměnná ("zeměpisná délka")
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \begin{center}
+                \includegraphics[width=0.4\textwidth]{images/ISS.png}\\    
+            \end{center}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \begin{frame}{Sever vůči ISS}
-     \begin{columns}[T]
+    \begin{columns}[T]
         \begin{column}{.8\textwidth}
             \begin{itemize}
                 \item použijeme \alert{sférickou sinovou větu}
@@ -608,7 +612,7 @@
      \begin{columns}[T]
         \begin{column}{.8\textwidth}
             \begin{itemize}
-                \item konečná závislost $\alpha$ na zeměpisné šířce
+                \item konečná závislost $\alpha$ na zeměpisné šířce:
                 $$\alpha=\arcsin\left(\frac{\cos(\varepsilon)}{\cos(l)}\right)$$
                 \item vzorec vrátí ostrý úhel $\rightarrow$ nutná korekce $\alpha$:
                 \begin{itemize}
@@ -628,9 +632,6 @@
             \begin{center}
             \includegraphics[width=0.8\textwidth]{images/alpha.png}
         \end{center}
-        \begin{itemize}
-            \item směr pohybu na fotce $\rightarrow$ směr severu z finální rovnice $\rightarrow$ směr stínu z azimutu Slunce 
-        \end{itemize}
 \end{frame}
 
 \begin{frame}{OpenCV: natočení kamery}
