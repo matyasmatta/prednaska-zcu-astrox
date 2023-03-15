@@ -1038,20 +1038,6 @@
     \end{center}
 \end{frame}
 
-\begin{frame}{Když není, co zpracovat}
-    \begin{columns}[T]
-        \begin{column}{.45\textwidth}
-            \begin{itemize}
-                \item zpřesňujeme \texttt{edoov\_coefficient}
-                \item případně se kód na pár vteřin uspí
-            \end{itemize}
-        \end{column}
-        \begin{column}{.5\textwidth}
-            \includegraphics[width=0.7\textwidth]{images/snippet_inactivity_main_runtime.png}
-        \end{column}
-   \end{columns}
-\end{frame}
-
 \begin{frame}{Extrakce EXIF metadat}
     \begin{columns}[T]
         \begin{column}{.45\textwidth}
@@ -1093,6 +1079,28 @@
         \end{column}
         \begin{column}{.5\textwidth}
             \includegraphics[width=1.0\textwidth]{images/snippet_split_class.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
+\begin{frame}{Kdy nehledat}
+    \begin{itemize}
+        \item slunce pod 5\degree $rightarrow$ špatná kvalita
+        \item obrázek moc bílý (tj. jeden velký mrak)
+        \item moc velký mrak - zakrývá velkou část stínu, nepřesné výsledky
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Když není, co zpracovat}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item zpřesňujeme \texttt{edoov\_coefficient}
+                \item případně se kód na pár vteřin uspí
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=0.7\textwidth]{images/snippet_inactivity_main_runtime.png}
         \end{column}
    \end{columns}
 \end{frame}
