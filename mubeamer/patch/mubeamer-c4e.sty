@@ -1,0 +1,30 @@
+\ProvidesPackage{mubeamer/patch/mubeamer-c4e}[2020/03/20]
+\NeedsTeXFormat{LaTeX2e}
+
+\usepackage{tikz}
+
+% Including the workplace logos emits the following warnings in MikTeX 2.9:
+%
+%   pdfTeX warning: pdflatex.exe (file ./mubeamer/logo/mubeamer-c4e-link.pdf)
+%   PDF inclusion: multiple pdfs with page group included in a single page
+%
+% The following redefinition silences the warning.
+\ifx\pdfsuppresswarningpagegroup\undefined\else
+  \pdfsuppresswarningpagegroup=1
+\fi
+
+% Publicity requirements of the OP VVV programme dictate that each public
+% presentation contains the logo of the Ministry of Education and the EU.
+% Therefore we use the custom last page for the presentation with pre-filled
+% logos.
+\renewcommand\makeoutro{%
+\begingroup
+\setbeamercolor{background canvas}{bg=mubeamer@label}
+\begin{frame}[plain]
+      \begin{tikzpicture}[remember picture,overlay]
+        \node[xshift=2cm,yshift=-2cm] at (current page.north west) {
+        \includegraphics[width = 2cm]{mubeamer/logo/ZCU_bila.pdf}};
+\end{tikzpicture}
+\end{frame}
+\endgroup
+}
