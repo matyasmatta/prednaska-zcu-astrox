@@ -175,4 +175,4 @@ def find_north(image_1, image_2):
     print(edoov_coefficient[3])
 
 if __name__ == '__main__':
-    find_north(r".\\mad1.jpg", r".\\mad2.jpg")
+    find_north(r"C:\Users\kiv\Documents\GitHub\prednaska-zcu-astrox\ukázka opencv\mad1.jpg", r"C:\Users\kiv\Documents\GitHub\prednaska-zcu-astrox\ukázka opencv\mad2.jpg")
