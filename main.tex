@@ -155,7 +155,7 @@
     \end{itemize}
     \end{column}
     \begin{column}{.4\textwidth}
-    \includegraphics[width = 4cm]{images/hackathon_uvod.png}
+    \includegraphics[width = 4cm]{images/hackathon_uvod.JPEG}
     \end{column}
   \end{columns}
 \end{frame}
@@ -250,7 +250,7 @@
 
 \section{Přihláška na fázi 2}
 \subsection[Poslání návrhu]{Dlouhý název podsekce 1}
-\begin{frame}{Jak jsme návrh odeslali?}
+\begin{frame}{Komunikace s ESA}
      \begin{columns}[T]
         \begin{column}{.7\textwidth}
             \begin{itemize}
@@ -260,27 +260,16 @@
         \begin{column}{.3\textwidth}
         \end{column}
     \end{columns}
-
-    \vspace{4.1cm}
-    \includegraphics[height=2cm]{images/esa_otazky_1.png}
-    \includegraphics[height=2cm]{images/esa_otazky_2.png}
-\end{frame}
-
-\begin{frame}{Odpověď}
-\begin{itemize}
-                    \item náš návrh byl v prosinci \alert{schválen}
-\end{itemize}
-\begin{center}
-    \includegraphics[width=10cm]{images/feedback.png}
-   
-\end{center}
+    \begin{center}
+        \includegraphics[height = 4cm]{images/komunikace.png}
+    \end{center}
 \end{frame}
 
 \begin{frame}{Obdržení sady}
 \begin{columns}[T]
         \begin{column}{.5\textwidth}
 \begin{itemize}
-                    \item poté jsme obdrželi sadu \alert{Raspberry Pi} s příslušenstvím až z \alert{Nizozemska}
+                    \item poté jsme obdrželi sadu \alert{Raspberry Pi} s příslušenstvím z \alert{Nizozemska}
 \end{itemize}
 \vspace{1cm}
     \includegraphics[width=\textwidth]{images/rozbalenasada.jpg}
@@ -566,26 +555,26 @@
         \vspace{-10mm}
         \includegraphics[width=0.5\textwidth]{images/ISS.png}   
     \end{center}
-    \begin{itemize}
-        \item $\alpha$ \dots úhel mezi severem a směrem pohybu ISS
-        \item $\varepsilon$ \dots sklon dráhy ISS vzhledem k rovníku
-        \item $l$ \dots zeměpisná šířka
-        \item $d$ \dots pomocná proměnná ("zeměpisná délka")
-    \end{itemize}
+            \begin{itemize}
+                \item $\alpha$ \dots úhel mezi severem a směrem pohybu ISS
+                \item $\varepsilon$ \dots sklon dráhy ISS vzhledem k rovníku
+                \item $l$ \dots zeměpisná šířka
+                \item $d$ \dots pomocná proměnná ("zeměpisná délka")
+            \end{itemize}
 \end{frame}
 
 \begin{frame}{Sever vůči ISS}
     \begin{columns}[T]
         \begin{column}{.8\textwidth}
-            \begin{itemize}
-                \item použijeme \alert{sférickou sinovou větu}
+    \begin{itemize}
+        \item použijeme \alert{sférickou sinovou větu}
                 $$\frac{\sin(d)}{\sin(\alpha)}=\frac{\sin(l)}{\sin(\varepsilon)}~\Rightarrow\sin(d)=\frac{\sin(l)}{\sin(\varepsilon)}\sin(\alpha)$$~
-                \item \alert{kotangentový vzorec} pro čtyři parametry:
-                $$\cos(90\degree)\cos(d)=\cot(l)\sin(d)-\cot(\varepsilon)\sin(90\degree)$$
-                $$\cot(\varepsilon)=\cot(l)\sin(d)$$
-                \item zkombinujeme
-                $$\cot(\varepsilon)=\cot(l)\frac{\sin(l)}{\sin(\varepsilon)}\sin(\alpha)~\Rightarrow~\sin(\alpha)=\frac{\cos(\varepsilon)}{\cos(l)}$$
-            \end{itemize}
+        \item \alert{kotangentový vzorec} pro čtyři parametry:
+        $$\cos(90\degree)\cos(d)=\cot(l)\sin(d)-\cot(\varepsilon)\sin(90\degree)$$
+        $$\cot(\varepsilon)=\cot(l)\sin(d)$$
+        \item zkombinujeme
+        $$\cot(\varepsilon)=\cot(l)\frac{\sin(l)}{\sin(\varepsilon)}\sin(\alpha)~\Rightarrow~\sin(\alpha)=\frac{\cos(\varepsilon)}{\cos(l)}$$
+    \end{itemize}
         \end{column}
         \begin{column}{.2\textwidth}
             \begin{center}
@@ -661,9 +650,9 @@
     \vspace{0.4cm}
         \includegraphics[width=0.9\textwidth]{images/opencv_finalkod.png}
     \begin{itemize}
-        \item natočení kamery $rightarrow$ sever na fotce $rightarrow$ slunce na fotce $rightarrow$ směr ke stínům
+        \item natočení kamery $\rightarrow$ sever na fotce $\rightarrow$ slunce na fotce $\rightarrow$ směr ke stínům
     \end{itemize}
-    \end{frame}
+\end{frame}
 
 
 
@@ -1109,36 +1098,6 @@
 \end{frame}
 
 \subsection[vlákno \texttt{processing}]{Dlouhý název podsekce 1}
-\begin{frame}{Implementace umělé inteligence}
-    \begin{columns}[T]
-        \begin{column}{.45\textwidth}
-            \begin{itemize}
-                \item funkce z třídy \texttt{ai}
-                \item úhel počítán vnitřní funkcí 
-                \item \texttt{while} podmínka je počet mraků (vždy 10)
-            \end{itemize}
-        \end{column}
-        \begin{column}{.5\textwidth}
-            \includegraphics[width=1.0\textwidth]{images/snippet_main_ai.png}
-        \end{column}
-   \end{columns}
-\end{frame}
-
-\begin{frame}{Implementace detekce stínů}
-    \begin{columns}[T]
-        \begin{column}{.45\textwidth}
-            \begin{itemize}
-                \item vypočteme počáteční pixel
-                \item podmínka délky 
-                \item využijeme funkci třídy \texttt{shadow}
-            \end{itemize}
-        \end{column}
-        \begin{column}{.5\textwidth}
-            \includegraphics[width=1.0\textwidth]{images/snippet_main_shadow.png}
-        \end{column}
-   \end{columns}
-\end{frame}
-
 
 \section[Získaná data]{Dlouhý název sekce 1}
 \begin{frame}[c]
@@ -1150,7 +1109,9 @@
 \end{frame}
 
 \begin{frame}{Obrázky}
-    \fullsizegraphic{images/ocekavame_obr.jpg}
+    \begin{center}
+        \includegraphics[height=0.8\textheight]{images/ocekavame_obr.jpg}
+    \end{center}
 \end{frame}
 \begin{frame}{Údaje o mracích}
        \includegraphics[height=0.8\textheight]{images/ocekavame_txt.png}
