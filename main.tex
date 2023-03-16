@@ -956,7 +956,7 @@
             \end{itemize}
         \end{column}
         \begin{column}{.45\textwidth}
-        \includegraphics[width=1.0\textwidth]{images/snippet_change_search.png}
+        \includegraphics[width=1.0\textwidth]{images/snippet_ochrana_change_minmax.png}
         \end{column}
     \end{columns}
 \end{frame}
@@ -1051,7 +1051,7 @@
        \begin{column}{.45\textwidth}
            \begin{itemize}
                \item jedno vlákno na produkci dat
-               \item jedno vlánko na zpracování dat
+               \item jedno vlákno na zpracování dat
                \item definovali jsme jako třídy
                \item samotné spuštění pod \texttt{if} funkcí
            \end{itemize}
@@ -1063,8 +1063,15 @@
    \footnotetext[14]{proces, kde běží více vláken současně, i.e. je schopen vykonávat více než jeden příkaz naráz}
 \end{frame}
 
+\begin{frame}[c]
+    \begin{center}
+    \color{mubeamer@base}
+    \Huge \textbf{Vlákno generativní}
+    \end{center}
+\end{frame}
+
 \subsection[vlákno \texttt{auxiliary}]{Dlouhý název podsekce 1}
-\begin{frame}{Dvouvláknový proces}
+\begin{frame}{Vlákno generativní}
     \begin{columns}[T]
        \begin{column}{.45\textwidth}
            \begin{itemize}
@@ -1086,11 +1093,13 @@
 \begin{frame}[c]
     \begin{center}
     \color{mubeamer@base}
-    \Huge \textbf{Inicializace}
+    \huge{\textbf{Vlákno zpracovací}}
+    \vspace{5mm}
+
+    \Large Inicializace
     \end{center}
 \end{frame}
     
-
 \subsection[vlákno \texttt{processing}]{Dlouhý název podsekce 1}
 \begin{frame}{Hlavní loop}
     \begin{columns}[T]
@@ -1126,7 +1135,10 @@
 \begin{frame}[c]
     \begin{center}
     \color{mubeamer@base}
-    \Huge \textbf{Hlavní zpracovací proces}
+    \huge{\textbf{Vlákno zpracovací}}
+    \vspace{5mm}
+    
+    \Large Hlavní proces
     \end{center}
 \end{frame}
 
@@ -1150,7 +1162,7 @@
             \begin{itemize}
                 \item pokud je Slunce nad obzorem
                 \item ty metadata jsme tam sami zapsali
-                \item funkce \texttt{file\_split} obrázek ořízne, rozseká a ke každému chopu přiřadí přesnější souřadnice 
+                \item funkce \texttt{file\_split} obrázek otočí, ořízne, rozseká a ke každému chopu přiřadí přesnější souřadnice 
             \end{itemize}
         \end{column}
         \begin{column}{.5\textwidth}
@@ -1198,6 +1210,35 @@
 \end{frame}
 
 \subsection[vlákno \texttt{processing}]{Dlouhý název podsekce 1}
+\begin{frame}{Implementace umělé inteligence}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item funkce z třídy \texttt{ai}
+                \item úhel počítán vnitřní funkcí 
+                \item \texttt{while} podmínka je počet mraků (vždy 10)
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=1.0\textwidth]{images/snippet_main_ai.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
+\begin{frame}{Implementace detekce stínů}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item vypočteme počáteční pixel
+                \item podmínka délky 
+                \item využijeme funkci třídy \texttt{shadow}
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=1.0\textwidth]{images/snippet_main_shadow.png}
+        \end{column}
+   \end{columns}
+\end{frame}
 
 \section[Odeslání programu]{Dlouhý název sekce 1}
 \begin{frame}[c]
