@@ -119,7 +119,7 @@
     
 \end{frame}
 
-\subsection[vysvětlivky]{Dlouhý název podsekce 1}
+\section[vysvětlivky]{Dlouhý název podsekce 1}
 
 \begin{frame}[c]
     \begin{center}
@@ -152,16 +152,16 @@
                 \item přesnějším popisem našeho využití je \alert{strojové učení}
                 \item modelu je předložen dataset\footnotemark  obsahující velké množství informací
                 \item model v datech postupně začne hledat spojitosti a závislosti
-                \item při dostatečném množství trénovacích dat je pak model schopen nalézt výsledky i na obrázcích, které neobsahují anotace\footnotemark[6]
+                \item při dostatečném množství trénovacích dat je pak model schopen nalézt výsledky i na obrázcích, které neobsahují anotace\footnotemark[3]
             \end{itemize}
         \end{column}
         \begin{column}{.3\textwidth}
             \includegraphics[width=0.95\textwidth]{images/Tensorflow_logo.svg.png}
         \end{column}
     \end{columns}
-    \footnotetext[4]{slovo, které vyvolává speciální pozornost}
-    \footnotetext[5]{soubor obrázků obsahující anotované\footnotemark[6] objekty}
-    \footnotetext[6]{soubory souřadnic ohraničující objekty}
+    \footnotetext[1]{slovo, které vyvolává speciální pozornost}
+    \footnotetext[2]{soubor obrázků obsahující anotované\footnotemark[3] objekty}
+    \footnotetext[3]{soubory souřadnic ohraničující objekty}
 \end{frame}
 
 \begin{frame}{Co je to Jupyter notebook?}
@@ -199,7 +199,6 @@
        \begin{column}{.45\textwidth}
            \begin{itemize}
                \item multičipovový modul
-               \item hlavní součástí je tzv. Edge TPU\footnotemark
                \item zrychluje běh umělé inteligence
                \item připojuje se standardně přes USB-C
            \end{itemize}
@@ -208,7 +207,6 @@
            \includegraphics[width=1\textwidth]{images/coral.png}
        \end{column}
    \end{columns}
-   \footnotetext{Tensor Processing Unit, integrovaný obvod pro AI}
 \end{frame}
 
 \begin{frame}{Co je to ISS?}
@@ -253,7 +251,7 @@
 \section[Hackathon v Praze]{Dlouhý název sekce 1}
 
 \subsection[Jak probíhal hackathon?]{Dlouhý název podsekce 1}
-\begin{frame}{Jak soutěž probíhala?}
+\begin{frame}{Jak probíhal hackathon?}
   \begin{columns}[T]
     \begin{column}{.6\textwidth}
     \begin{itemize}
@@ -561,18 +559,15 @@
      \begin{columns}[T]
         \begin{column}{.9\textwidth}
             \begin{itemize}
-                \item použili jsme Jupyter \href{http://tiny.cc/tutorialtflite}{notebook}\footnotemark[9] podle YouTube videa \cite{tflitetutorial} 
-                \item vytrénovali jsme Tensorflow\footnotemark[10] 1.x model a překonvertovali jsme jej na kvantovaný \alert{TFLite} model pro Coral\footnotemark[11]
-                \item použili jsme Google Colab\footnotemark[12] kvůli velkému výkonu
-                \item exportovali jsme Roboflow data do .tfrecord a .xml souborů
-                \item manuálně jsme vytvořili labelmap
-                \item model jsme trénovali několik hodin
+                \item použili jsme Jupyter \href{http://tiny.cc/tutorialtflite}{notebook} podle YouTube videa \cite{tflitetutorial} 
+                \item Google Colab\footnotemark[12] díky velkému výkonu
+                \item vytrénování Tensorflow\footnotemark[10] 1.x modelu a konverze na kvantovaný \alert{TFLite} model pro Coral\footnotemark[11]
+                \item několika hodinové trénování modelu
             \end{itemize}
         \end{column}
         \begin{column}{.1\textwidth}
         \end{column}
     \end{columns}
-    \footnotetext[9]{typ souboru kombinující snipetty Python kódu a textů k instrukcím}
     \footnotetext[10]{bezplatná knihovna a platforma pro trénování modelů od Googlu}
     \footnotetext[11]{nám poskytnuté příslušenství k Raspberry Pi pro zrychlení běhu AI modelů}
     \footnotetext[12]{služba poskytující bezplatný hosting Jupyter notebooků}
@@ -1336,16 +1331,16 @@
    \end{columns}
 \end{frame}
 
-\section{\bibname}
-\begin{frame}[t, allowframebreaks]{\bibname}
-\printbibliography[heading=none]
-\end{frame}
-
 \begin{frame}[c]
     \begin{center}
     \color{mubeamer@base}
     \huge{\textbf{Děkujeme vám za pozornost!}}
     \end{center}
+\end{frame}
+
+\section{\bibname}
+\begin{frame}[t, allowframebreaks]{\bibname}
+\printbibliography[heading=none]
 \end{frame}
 
 \makeoutro
