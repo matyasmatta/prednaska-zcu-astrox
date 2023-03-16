@@ -693,7 +693,7 @@
     \end{center}
 \end{frame}
 
-\begin{frame}{Quō vādis ISS aneb OpenCV: natočení kamery}
+\begin{frame}{Quō vādis ISS}
     \begin{columns}[T]
         \begin{column}{.7\textwidth}
             \begin{itemize}
@@ -798,7 +798,7 @@
 
 \begin{frame}{Jak projet jednotlivé pixely?}
      \begin{columns}[T]
-        \begin{column}{.4\textwidth}
+        \begin{column}{.5\textwidth}
         \begin{enumerate}
             \setcounter{enumi}{2}
             \item úhel přepočteme na přírůstek $x$ a přírůstek $y$
@@ -822,11 +822,11 @@
         \end{enumerate}
         \begin{itemize}
             \item \texttt{x += 0.38}, \texttt{y += 0.87}
-            \item \texttt{x += 0.41}, \texttt{y += 1}
+            \item[$\rightarrow$] \texttt{x += 0.41}, \texttt{y += 1}
         \end{itemize}
         \end{column}
         \begin{column}{.4\textwidth}
-          \hspace{3cm}\href{run:./animace.mp4}{(animace)}
+          \hspace{3cm}\href{run:./animace.mp4}{animace}
         \end{column}
     \end{columns}
     \begin{center}
@@ -876,7 +876,7 @@
      \begin{columns}[T]
         \begin{column}{.45\textwidth}
             \begin{itemize}
-                \item získáme list obsahující jednotlivé průměrné hodnoty pixelů
+                \item získáme list obsahující jednotlivé průměrné hodnoty z RGB pixelů
                 \item a také list obsahující hodnoty jen v červeném spektru
                 \item ty poté dále vložíme do jednotlivých funkcí na výpočet vzdálenosti mezi stínem a mrakem
             \end{itemize}
@@ -1114,7 +1114,7 @@
                 \item pokud není výsledek dost přesný neopustí loop
                 \item chceme přesnost pod jeden stupeň
                 \item využíváme medián, nikoliv průměr
-                \item pokud ještě neuběhlo 256 vteřin tak se loop neukončí ani kdyby byla podmínka splněna
+                \item minimálně 4 minuty měření
             \end{itemize}
         \end{column}
         \begin{column}{.5\textwidth}
@@ -1177,7 +1177,7 @@
 
 \begin{frame}{Kdy nehledat}
     \begin{itemize}
-        \item slunce pod 5\degree $rightarrow$ špatná kvalita
+        \item slunce pod 5° $\rightarrow$ špatná kvalita
         \item obrázek moc bílý (tj. jeden velký mrak)
         \item moc velký mrak - zakrývá velkou část stínu, nepřesné výsledky
     \end{itemize}
@@ -1199,6 +1199,60 @@
 
 \subsection[vlákno \texttt{processing}]{Dlouhý název podsekce 1}
 
+\section[Odeslání programu]{Dlouhý název sekce 1}
+\begin{frame}[c]
+    \begin{center}
+    \color{mubeamer@base}
+    \huge{\textbf{Odeslání celého kódu}}
+    \vspace{5mm}
+    \end{center}
+\end{frame}
+\begin{frame}{Způsob odeslání}
+    \begin{itemize}
+        \item deadline \alert{24.2.2023} v 23:59
+        \item zazipovaný soubor s \texttt{main.py} a daty pro umělou inteligenci
+        \item přísné podmínky
+    \end{itemize}
+    \hspace{1cm}
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{images/odeslani_phase2.png}
+    \end{center}
+\end{frame}
+
+\begin{frame}{Přísné podmínky kódu}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item ukončení do 3 hodin
+                \item nemožnost připojení na internet
+                \item rozběhnutí jedním příkazem
+                \item nesmí generovat errory
+                \item jeden hlavní soubor
+                \item název souboru \texttt{main.py}
+                \item další...
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=0.7\textwidth]{images/snippet_inactivity_main_runtime.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
+\begin{frame}{Odeslání kódu}
+    \begin{columns}[T]
+        \begin{column}{.3\textwidth}
+            \begin{itemize}
+                \item cca 30 minut před termínem
+            \end{itemize}
+        \end{column}
+        \begin{column}{.7\textwidth}
+            \includegraphics[width=0.7\textwidth]{images/snippet_inactivity_main_runtime.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
+
+
 \section[Získaná data]{Dlouhý název sekce 1}
 \begin{frame}[c]
     \begin{center}
@@ -1207,6 +1261,7 @@
     \vspace{5mm}
     \end{center}
 \end{frame}
+
 
 \begin{frame}{Obrázky}
     \fullsizegraphic{images/ocekavame_obr.jpg}
@@ -1225,7 +1280,7 @@
            \begin{itemize}
                \item údaje z obrázků necháme ještě jednou přepočítat
                \item data zanalyzujeme
-               \item vytvoříme pětistránkovou zprávu 
+               \item vytvoříme čtyřstránkovou zprávu 
            \end{itemize}
        \end{column}
        \begin{column}{.3\textwidth}
