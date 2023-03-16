@@ -364,6 +364,92 @@
 \subsection[class \texttt{ai}]{Dlouhý název podsekce 1}
 
 \begin{frame}[c]
+    \begin{center}
+    \color{mubeamer@base}
+    \Huge \textbf{O programu}
+    \end{center}
+\end{frame}
+
+\begin{frame}{Co je to Python?}
+    \begin{columns}[T]
+       \begin{column}{.45\textwidth}
+           \begin{itemize}
+               \item programovací jazyk 
+               \item nejčastější jazyk pro data science a umělou inteligenci
+               \item velmi často je vyučován jako jeden z prvních jazyků
+               \item vzhledově lehce čitelný, oddělování bloků odsazováním
+           \end{itemize}
+       \end{column}
+       \begin{column}{.45\textwidth}
+           \includegraphics[width=1\textwidth]{images/python.png}
+       \end{column}
+   \end{columns}
+\end{frame}
+
+\begin{frame}{Co je to Jupyter notebook?}
+    \begin{columns}[T]
+       \begin{column}{.3\textwidth}
+           \begin{itemize}
+               \item dokumenty obsahující buňky s kódem a komentáře k němu
+               \item umožňuje spouštění kódu krok za krokem
+           \end{itemize}
+       \end{column}
+       \begin{column}{.65\textwidth}
+           \includegraphics[width=0.95\textwidth]{images/jupyter.png}
+       \end{column}
+   \end{columns}
+\end{frame}
+
+\begin{frame}{Co je to Raspberry Pi?}
+    \begin{columns}[T]
+       \begin{column}{.45\textwidth}
+           \begin{itemize}
+               \item malý jednodeskový počítač s deskou plošných spojů
+               \item o velikosti zhruba platební karty
+               \item operačním systémem je Raspbian
+               \item standardně kolem 1500 korun
+           \end{itemize}
+       \end{column}
+       \begin{column}{.45\textwidth}
+           \includegraphics[width=1\textwidth]{images/raspberrypi.png}
+       \end{column}
+   \end{columns}
+\end{frame}
+
+\begin{frame}{Co je to Google Coral?}
+    \begin{columns}[T]
+       \begin{column}{.45\textwidth}
+           \begin{itemize}
+               \item multičipovový modul
+               \item hlavní součástí je tzv. Edge TPU\footnotemark
+               \item zrychluje běh umělé inteligence
+               \item připojuje se standardně přes USB-C
+           \end{itemize}
+       \end{column}
+       \begin{column}{.45\textwidth}
+           \includegraphics[width=1\textwidth]{images/coral.png}
+       \end{column}
+   \end{columns}
+   \footnotetext{Tensor Processing Unit, integrovaný obvod pro AI}
+\end{frame}
+
+\begin{frame}{Co je to ISS?}
+    \begin{columns}[T]
+       \begin{column}{.35\textwidth}
+           \begin{itemize}
+               \item jediná trvale obydlená vesmírná stanice
+               \item ve výšce kolem 400 km
+               \item při průměrné rychlosti okolo 7,5 km/s \\(27 720 km/h)
+               \item s periodou cca 92 minut
+           \end{itemize}
+       \end{column}
+       \begin{column}{.6\textwidth}
+           \includegraphics[width=1\textwidth]{images/ISS_configuration_2021-07_en.svg.png}
+       \end{column}
+   \end{columns}
+\end{frame}
+
+\begin{frame}[c]
 \begin{center}
 \color{mubeamer@base}
 \Huge \textbf{Jak detekovat mraky?}
@@ -434,7 +520,7 @@
      \begin{columns}[T]
         \begin{column}{.8\textwidth}
             \begin{itemize}
-                \item použili jsme \alert{Roboflow}\footnotemark[7] 
+                \item použili jsme \alert{Roboflow}\footnotemark[7]\cite{roboflow} 
                 \item sehnali jsme obrázky z minulého ročníku Astro Pi
                 \item vybrali jsme 16 obrázků (pozor na overfitting\footnotemark[8])
                 \item rozřezali jsme je na 16 sektorů
@@ -451,7 +537,11 @@
 \end{frame}
 
 \begin{frame}[plain]
-\fullsizegraphic{images/crop_example.png}
+    \fullsizegraphic{images/ukazka_roboflow.png}
+\end{frame}
+
+\begin{frame}[plain]
+    \fullsizegraphic{images/crop_example.png}
 \end{frame}
 
 \begin{frame}{Jak jsme získali model?}
@@ -1117,9 +1207,7 @@
 \end{frame}
 
 \begin{frame}{Obrázky}
-    \begin{center}
-        \includegraphics[height=0.8\textheight]{images/ocekavame_obr.jpg}
-    \end{center}
+    \fullsizegraphic{images/ocekavame_obr.jpg}
 \end{frame}
 \begin{frame}{Údaje o mracích}
        \includegraphics[height=0.8\textheight]{images/ocekavame_txt.png}
