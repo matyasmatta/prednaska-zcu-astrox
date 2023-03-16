@@ -1060,7 +1060,6 @@
        \includegraphics[width=1.0\textwidth]{images/snippet_main_thread_class.png}
        \end{column}
    \end{columns}
-   \footnotetext[14]{proces, kde běží více vláken současně, i.e. je schopen vykonávat více než jeden příkaz naráz}
 \end{frame}
 
 \begin{frame}[c]
@@ -1095,7 +1094,7 @@
     \color{mubeamer@base}
     \huge{\textbf{Vlákno zpracovací}}
     \vspace{5mm}
-
+    \\
     \Large Inicializace
     \end{center}
 \end{frame}
@@ -1137,7 +1136,7 @@
     \color{mubeamer@base}
     \huge{\textbf{Vlákno zpracovací}}
     \vspace{5mm}
-    
+    \\
     \Large Hlavní proces
     \end{center}
 \end{frame}
@@ -1147,7 +1146,6 @@
         \begin{column}{.45\textwidth}
             \begin{itemize}
                 \item první využijeme námi definované funkce na extrakci metadat
-                \item ty metadata jsme tam sami zapsali
             \end{itemize}
         \end{column}
         \begin{column}{.5\textwidth}
@@ -1161,7 +1159,6 @@
         \begin{column}{.45\textwidth}
             \begin{itemize}
                 \item pokud je Slunce nad obzorem
-                \item ty metadata jsme tam sami zapsali
                 \item funkce \texttt{file\_split} obrázek otočí, ořízne, rozseká a ke každému chopu přiřadí přesnější souřadnice 
             \end{itemize}
         \end{column}
@@ -1195,20 +1192,6 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Když není, co zpracovat}
-    \begin{columns}[T]
-        \begin{column}{.45\textwidth}
-            \begin{itemize}
-                \item zpřesňujeme \texttt{edoov\_coefficient}
-                \item případně se kód na pár vteřin uspí
-            \end{itemize}
-        \end{column}
-        \begin{column}{.5\textwidth}
-            \includegraphics[width=0.7\textwidth]{images/snippet_inactivity_main_runtime.png}
-        \end{column}
-   \end{columns}
-\end{frame}
-
 \subsection[vlákno \texttt{processing}]{Dlouhý název podsekce 1}
 \begin{frame}{Implementace umělé inteligence}
     \begin{columns}[T]
@@ -1236,6 +1219,20 @@
         \end{column}
         \begin{column}{.5\textwidth}
             \includegraphics[width=1.0\textwidth]{images/snippet_main_shadow.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
+\begin{frame}{Když není, co zpracovat}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item zpřesňujeme \texttt{edoov\_coefficient}
+                \item případně se kód na pár vteřin uspí
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=0.7\textwidth]{images/snippet_inactivity_main_runtime.png}
         \end{column}
    \end{columns}
 \end{frame}
@@ -1294,9 +1291,6 @@
 \begin{frame}{Tomáš}
     \fullsizegraphic{images/odeslani_tomas.jpg}
 \end{frame}
-
-
-
 
 \section[Získaná data]{Dlouhý název sekce 1}
 \begin{frame}[c]
