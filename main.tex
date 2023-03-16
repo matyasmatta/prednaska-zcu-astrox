@@ -140,7 +140,7 @@
 
 \section[Hackathon v Praze]{Dlouhý název sekce 1}
 
-\subsection[Jak soutěž probíhala?]{Dlouhý název podsekce 1}
+\subsection[Jak probíhal hackathon?]{Dlouhý název podsekce 1}
 \begin{frame}{Jak soutěž probíhala?}
   \begin{columns}[T]
     \begin{column}{.6\textwidth}
@@ -386,6 +386,26 @@
    \end{columns}
 \end{frame}
 
+\begin{frame}{Co je to umělá inteligence?}
+     \begin{columns}[T]
+        \begin{column}{.7\textwidth}
+            \begin{itemize}
+                \item poslední dobou spíše catchword\footnotemark 
+                \item přesnějším popisem našeho využití je \alert{strojové učení}
+                \item modelu je předložen dataset\footnotemark  obsahující velké množství informací
+                \item model v datech postupně začne hledat spojitosti a závislosti
+                \item při dostatečném množství trénovacích dat je pak model schopen nalézt výsledky i na obrázcích, které neobsahují anotace\footnotemark[6]
+            \end{itemize}
+        \end{column}
+        \begin{column}{.3\textwidth}
+            \includegraphics[width=0.95\textwidth]{images/Tensorflow_logo.svg.png}
+        \end{column}
+    \end{columns}
+    \footnotetext[4]{slovo, které vyvolává speciální pozornost}
+    \footnotetext[5]{soubor obrázků obsahující anotované\footnotemark[6] objekty}
+    \footnotetext[6]{soubory souřadnic ohraničující objekty}
+\end{frame}
+
 \begin{frame}{Co je to Jupyter notebook?}
     \begin{columns}[T]
        \begin{column}{.3\textwidth}
@@ -465,7 +485,7 @@
      \begin{columns}[T]
         \begin{column}{.45\textwidth}
             \begin{itemize}
-                \item po přečtení několika studií o RS-Net \cite{jeppesen2019cloud} architektuře jsme mysleli, že by se tento kód dal použít
+                \item po přečtení studie o RS-Net \cite{jeppesen2019cloud} architektuře jsme mysleli, že by se tento kód dal použít
                 \item metoda postupně se zmenšujících bounding boxů
             \footnotemark 
                 \item pro komplikovanost jsme nebyli schopni tuto metodu aplikovat
@@ -475,17 +495,17 @@
             \includegraphics[width=1\textwidth]{images/rs-net.png}
         \end{column}
     \end{columns}
-    \footnotetext{čtveřice souřadnic ohraničující objekt, reprezentován čtvercem}
+    \footnotetext{čtveřice souřadnic ohraničující objekt}
 \end{frame}
 
 \begin{frame}{Bounding box umělá inteligence}
      \begin{columns}[T]
         \begin{column}{.45\textwidth}
             \begin{itemize}
-                \item mohli jsme vytrénovat jednoduchý model na detekci mraků a stínů
-                \item poté by stačilo udělat jednoduchý výpočet a zjistili bychom výšku
+                \item vytrénování jednoduchého modelu na detekci mraků a stínů
+                \item výpočet výšky ze vzdálenosti souřadnic
                 \item detekce stínů se ukázala být příliš komplikovaná a nespolehlivá
-                \item detekce mraků touto metodou se však ukázala být nejjednodušším řešením, takže jsme s ní dále pracovali
+                \item touto metodou detekce jen mraků
             \end{itemize}
         \end{column}
         \begin{column}{.45\textwidth}
@@ -499,26 +519,6 @@
 \color{mubeamer@base}
 \Huge \textbf{Jak se trénuje\\ „umělá inteligence“?}
 \end{center}
-\end{frame}
-
-\begin{frame}{Co je to umělá inteligence?}
-     \begin{columns}[T]
-        \begin{column}{.8\textwidth}
-            \begin{itemize}
-                \item poslední dobou spíše catchword\footnotemark 
-                \item přesnějším popisem našeho využití je \alert{strojové učení}
-                \item modelu je předložen dataset\footnotemark  obsahující velké množství informací
-                \item model v datech postupně začne hledat spojitosti a závislosti
-                \item při dostatečném množství trénovacích dat je pak model schopen nalézt výsledky i na obrázcích, které neobsahují anotace\footnotemark[6]
-            \end{itemize}
-        \end{column}
-        \begin{column}{.2\textwidth}
-            \includegraphics[width=0.7\textwidth]{images/Tensorflow_logo.svg.png}
-        \end{column}
-    \end{columns}
-    \footnotetext[4]{slovo, které vyvolává speciální pozornost}
-    \footnotetext[5]{soubor obrázků obsahující anotované\footnotemark[6] objekty}
-    \footnotetext[6]{soubory souřadnic ohraničující objekty}
 \end{frame}
 
 \begin{frame}{Jak se připravuje dataset?}
