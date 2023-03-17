@@ -34,11 +34,12 @@
 \usepackage{textcomp}
 \usepackage{graphicx} % Required for inserting images %potřebuje David
 \usepackage{gensymb} %for degrees %potřebuje David
+\usepackage{qrcode}
 
 
 
 
-\title[Wanted: Shadows]{Wanted: Shadows}
+\title[Wanted: Shadows (\#5590762)]{Wanted: Shadows (\#5590762)}
 \subtitle[Alternativní název prezentace]{aneb zjišťování výšky mraků pomocí Coralu a RaspberryPi}
 \author[AstroX]{M. Matta, E. Plic, T. Rajchman, D. Němec, L. Kohoutková\texorpdfstring{\\}{, }astrox@mgplzen.cz}
 \institute[C4e]{Tým AstroX z Masarykovo Gymnázia}
@@ -48,7 +49,7 @@
 \begin{document}
 
 \begin{frame}[plain]
-\maketitle
+\fullsizegraphic{images/intro_final.png}
 \end{frame}
 
 \subsection[Kdo jsme?]{Dlouhý název podsekce 1}
@@ -1192,8 +1193,8 @@
 \begin{frame}{Proč obrázek rozsekávat?}
     \begin{itemize}
         \item pro anotaci rozsekáno kvůli limitacím Roboflow
-        \item zrychlení programu
         \item metodou rozsekání lze zpřesnit souřadnice
+        \item zrychlení programu
     \end{itemize}
 \end{frame}
 
@@ -1383,13 +1384,36 @@
     \color{mubeamer@base}
     \Huge{\textbf{Děkujeme vám za pozornost!}}
     \\
+    \vspace{3mm}
     \huge{Nyní je prostor pro dotazy!}
+    \\
     \end{center}
+    \vspace{3mm}
+    \begin{columns}[T]
+        \begin{column}{.7\textwidth}
+            \begin{center}
+                \qrcode[height=3cm]{https://github.com/MMatty8137/astrox/tree/release}
+                \\
+                \vspace{1mm}GitHub
+            \end{center}
+        \end{column}
+        
+        \begin{column}{.3\textwidth}
+            \begin{center}
+                \qrcode[height=3cm]{https://app.sli.do/event/7vYm6tKtEEawjiSR8zCykh}
+                \\
+                \vspace{1mm}Q\&A
+            \end{center}
+        \end{column}
+    \end{columns}    
 \end{frame}
 
 \section{\bibname}
 \begin{frame}[t, allowframebreaks, plain]{\bibname}
 \printbibliography[heading=none]
+
+\vfill
+Všechny obrázky byly buď naše nebo CC.
 \end{frame}
 
 \setbeamercolor{background canvas}{bg=mubeamer@label}
