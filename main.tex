@@ -1099,7 +1099,6 @@
     \begin{center}
     \color{mubeamer@base}
     \huge{\textbf{Vlákno zpracovací}}
-    \vspace{5mm}
     \\
     \Large Inicializace
     \end{center}
@@ -1141,7 +1140,6 @@
     \begin{center}
     \color{mubeamer@base}
     \huge{\textbf{Vlákno zpracovací}}
-    \vspace{5mm}
     \\
     \Large Hlavní proces
     \end{center}
@@ -1334,18 +1332,22 @@
    \end{columns}
 \end{frame}
 
-\begin{frame}[c]
+\begin{frame}[plain,c]
     \begin{center}
     \color{mubeamer@base}
-    \huge{\textbf{Děkujeme vám za pozornost!}}
+    \Huge{\textbf{Děkujeme vám za pozornost!}}
+    \\
+    \huge{Nyní máme prostor pro dotazy!}
     \end{center}
 \end{frame}
 
 \section{\bibname}
-\begin{frame}[t, allowframebreaks]{\bibname}
+\begin{frame}[t, allowframebreaks, plain]{\bibname}
 \printbibliography[heading=none]
 \end{frame}
 
-\makeoutro
-
+\setbeamercolor{background canvas}{bg=mubeamer@label}
+\begin{frame}[plain]
+    \fullsizegraphic{images/outro.png}
+\end{frame}
 \end{document}
