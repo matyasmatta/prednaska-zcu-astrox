@@ -1185,22 +1185,28 @@
                 \item metodou rozsekání lze zpřesnit souřadnice
             \end{itemize}
         \end{column}
-        \begin{column}{.5\textwidth}
-            \includegraphics[width=1.0\textwidth]{images/snippet_main_splitter.png}
-        \end{column}
    \end{columns}
 \end{frame}
 
-\begin{frame}
-    \includegraphics[width=1.0\textwidth]{images/ukazka_origanal.jpg}
+\begin{frame}{Jak rozřezávání zrychlý program?}
+    \begin{itemize}
+        \item slunce pod 5° $\rightarrow$ špatná kvalita
+        \item obrázek moc bílý (tj. jeden velký mrak)
+        \item moc velký mrak - zakrývá velkou část stínu, nepřesné výsledky
+    \end{itemize}
 \end{frame}
 
-\begin{frame}
-    \includegraphics[width=1.0\textwidth]{images/snippet_split_rotate.png}
-    \includegraphics[width=0.8\textwidth]{images/ukazka_otocena.jpg}
+\begin{frame}{Originální fotka}
+    \includegraphics[width=0.8\textwidth]{images/ukazka_origanal.jpg}
 \end{frame}
 
-\begin{frame}
+\begin{frame}{Otočení fotky}
+    \begin{center} 
+        \includegraphics[width=0.8\textwidth]{images/ukazka_otocena.jpg}
+    \end{center}
+\end{frame}
+
+\begin{frame}{Oříznutí fotky}
     \begin{columns}[T]
         \begin{column}{.5\textwidth}
             \includegraphics[width=1\textwidth]{images/ukazka_crop.jpg}
@@ -1211,7 +1217,7 @@
     \end{columns}
 \end{frame}
 
-\begin{frame}
+\begin{frame}{Rozřezání fotky}
     \begin{columns}[T]
         \begin{column}{.5\textwidth}
             \includegraphics[width=1\textwidth]{images/ukazka_chop.jpg}
@@ -1220,28 +1226,6 @@
             \includegraphics[width=1\textwidth]{images/snippet_split_class.png}
         \end{column}
     \end{columns}
-\end{frame}
-
-\begin{frame}{Rozsekání obrázků}
-    \begin{columns}[T]
-        \begin{column}{.45\textwidth}
-            \begin{itemize}
-                \item pokud je Slunce nad obzorem
-                \item funkce \texttt{file\_split} obrázek otočí, ořízne, rozseká a ke každému chopu přiřadí přesnější souřadnice 
-            \end{itemize}
-        \end{column}
-        \begin{column}{.5\textwidth}
-            \includegraphics[width=0.9\textwidth]{images/snippet_split_class.png}
-        \end{column}
-   \end{columns}
-\end{frame}
-
-\begin{frame}{Kdy nehledat}
-    \begin{itemize}
-        \item slunce pod 5° $\rightarrow$ špatná kvalita
-        \item obrázek moc bílý (tj. jeden velký mrak)
-        \item moc velký mrak - zakrývá velkou část stínu, nepřesné výsledky
-    \end{itemize}
 \end{frame}
 
 \subsection[vlákno \texttt{processing}]{Dlouhý název podsekce 1}
