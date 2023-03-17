@@ -487,7 +487,7 @@
 \end{center}
 \end{frame}
 
-\begin{frame}{Použít RS-Net\footnote{Remote Sensing Network} deep learning}
+\begin{frame}{Použít RS-Net\footnote{Remote Sensing Network}}
      \begin{columns}[T]
         \begin{column}{.45\textwidth}
             \begin{itemize}
@@ -504,7 +504,7 @@
     \footnotetext{čtveřice souřadnic ohraničující objekt}
 \end{frame}
 
-\begin{frame}{Bounding box umělá inteligence}
+\begin{frame}{Object detection umělá inteligence}
      \begin{columns}[T]
         \begin{column}{.45\textwidth}
             \begin{itemize}
@@ -557,7 +557,7 @@
 
 \begin{frame}{Jak jsme získali model?}
      \begin{columns}[T]
-        \begin{column}{.9\textwidth}
+        \begin{column}{.75\textwidth}
             \begin{itemize}
                 \item použili jsme Jupyter \href{http://tiny.cc/tutorialtflite}{notebook} podle YouTube videa \cite{tflitetutorial} 
                 \item Google Colab\footnotemark[12] díky velkému výkonu
@@ -565,7 +565,10 @@
                 \item několika hodinové trénování modelu
             \end{itemize}
         \end{column}
-        \begin{column}{.1\textwidth}
+        \begin{column}{.25\textwidth}
+            \vspace{3cm}
+            \hspace*{-1.5cm}   
+            \includegraphics[width=1.8\textwidth]{images/Google_Colaboratory_SVG_Logo.png}
         \end{column}
     \end{columns}
     \footnotetext[10]{bezplatná knihovna a platforma pro trénování modelů od Googlu}
@@ -1157,6 +1160,22 @@
    \end{columns}
 \end{frame}
 
+\subsection[class \texttt{split}]{Dlouhý název podsekce 1}
+\begin{frame}{Proč obrázek rozsekávat?}
+    \begin{columns}[T]
+        \begin{column}{.45\textwidth}
+            \begin{itemize}
+                \item pro anotaci rozsekáno kvůli limitacím Roboflow
+                \item zrychlení programu
+                \item metodou rozsekání lze zpřesnit souřadnice
+            \end{itemize}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \includegraphics[width=1.0\textwidth]{images/snippet_main_splitter.png}
+        \end{column}
+   \end{columns}
+\end{frame}
+
 \begin{frame}{Rozsekání obrázků}
     \begin{columns}[T]
         \begin{column}{.45\textwidth}
@@ -1166,23 +1185,7 @@
             \end{itemize}
         \end{column}
         \begin{column}{.5\textwidth}
-            \includegraphics[width=0.9\textwidth]{images/snippet_main_splitter.png}
-        \end{column}
-   \end{columns}
-\end{frame}
-
-\subsection[class \texttt{split}]{Dlouhý název podsekce 1}
-\begin{frame}{Proč obrázek rozsekávat?}
-    \begin{columns}[T]
-        \begin{column}{.45\textwidth}
-            \begin{itemize}
-                \item pro anotaci rozsekáno kvůli limitacím Roboflow
-                \item pro reálný program to nebylo nutné
-                \item metodou rozsekání lze zpřesnit souřadnice
-            \end{itemize}
-        \end{column}
-        \begin{column}{.5\textwidth}
-            \includegraphics[width=1.0\textwidth]{images/snippet_split_class.png}
+            \includegraphics[width=0.9\textwidth]{images/snippet_split_class.png}
         \end{column}
    \end{columns}
 \end{frame}
